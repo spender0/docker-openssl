@@ -1,4 +1,3 @@
-#BUILD
 FROM debian as builder
 WORKDIR /
 ARG VERSION=1.1.1

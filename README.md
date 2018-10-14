@@ -1,11 +1,19 @@
-### Dockerized OpenSSL
+### Dockerized OpenSSL tool 
 
+Actual version of OpenSSL
+
+#### Pull and run
+```
+docker run -it --rm spender0/docker-openssl help
+```
 #### Build and run
 
 ```
-git clone...
+git clone https://github.com/spender0/docker-openssl.git
 
-docker build -t openssl:local --build-arg VERSION=1.1.1 openssl/
+cd docker-openssl
+
+docker build -t openssl:local --build-arg VERSION=1.1.1 .
 
 docker run -it --rm openssl:local help
 ```
