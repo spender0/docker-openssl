@@ -4,7 +4,7 @@ Actual version of OpenSSL
 
 #### Pull and run
 ```
-docker run -it --rm spender0/docker-openssl help
+docker run -it --rm spender0/openssl help
 ```
 #### Build and run
 
